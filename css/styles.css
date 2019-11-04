@@ -1,0 +1,63 @@
+/*
+Newspaper Colour Palette @ colourlovers.com
+Noto Serif TC @ https://fonts.google.com/
+UnifrakturCook @ https://fonts.google.com/
+Images @ https://pixabay.com/
+All names are fictional, generated using fantasynamegenerators.com
+*/
+body {
+	background-color: #F4EBE4;
+	color: #22231E;
+	font-family: "Noto Serif TC", serif;
+}
+a {
+	color: #22231E;
+}
+.navbar {
+	border-bottom: 1px solid black;
+}
+.navbar-brand {
+	font-size: 4rem;
+	font-family: "UnifrakturCook", cursive;
+}
+.navbar-text {
+	font-size: 1rem;
+}
+h2 {
+	font-weight: 700;
+}
+h5 {
+	font-weight: 400;
+}
+.text-right {
+	font-size: 0.75rem;
+	font-weight: 700;
+}
+.text-left {
+	font-size: 0.75rem;
+	font-weight: 700;
+}
+.page-footer {
+	border-top: 1px solid black;
+}
+/*shrink heading size at this screen size*/
+@media (max-width: 768px) {
+	.navbar-brand {
+		font-size: 2rem;
+	}
+	.navbar-text {
+		font-size: 0.5rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+/*shrink left most column for these screen sizes to reduce white spaces*/
+@media (min-width: 768px) and (max-width: 1200px) {
+	h2 {
+		font-size: 1.5rem;
+	}
+	.side-col {
+		font-size: 0.75rem;
+	}
+}
